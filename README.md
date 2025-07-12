@@ -1,19 +1,19 @@
-# Semi‑Fragile Watermarking for Tamper Detection
+# Deep Learning Based Tamper Localization
 
-## About
-A digital watermarking scheme that balances robustness and sensitivity: it survives benign transformations (e.g., compression, resizing) but flags malicious edits. Watermarks are imperceptibly embedded into images, enabling precise detection and localization of unauthorized tampering while preserving high visual fidelity.
+## Overview 
 
-## Features
-- **Semi‑Fragile Embedding**  
-  Embeds invisible watermarks that endure common image processing but break upon tampering.
-- **Tamper Detection & Localization**  
-  Generates tamper maps highlighting altered regions at the pixel level.
-- **High Visual Quality**  
-  Maintains negligible perceptual distortion in watermarked images.
-- **Configurable Parameters**  
-  Adjust watermark strength, block size, and detection thresholds.
+This project provides a deep learning-based solution for **image tamper localization**. 
+The goal is to detect and localize regions within digital images that have been manipulated or tampered with, using advanced neural network architectures. 
 
-## Tech Stack
-- **Language:** Python
-- **Core Libraries:** NumPy, OpenCV, PyWavelets  
-- **Visualization:** Matplotlib, Seaborn  
+## Features 
+
+-**End-to-end deep learning pipeline** for tamper localization 
+- Support for various image manipulation types (copy-move, splicing, removal)
+- Pre-trained model weights and easy inference scripts
+- Evaluation metrics for localization accuracy
+
+## Requirements 
+
+- Python 3.7+
+- PyTorch (recommended version: 1.7+)
+- OpenCV - NumPy - Matplotlib

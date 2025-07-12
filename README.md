@@ -7,7 +7,7 @@ The goal is to detect and localize regions within digital images that have been 
 
 ## Features 
 
--**End-to-end deep learning pipeline** for tamper localization 
+**End-to-end deep learning pipeline** for tamper localization 
 - Support for various image manipulation types (copy-move, splicing, removal)
 - Pre-trained model weights and easy inference scripts
 - Evaluation metrics for localization accuracy
